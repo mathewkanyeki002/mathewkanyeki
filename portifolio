@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | IT Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f0f2f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 20px;
+    }
+    section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #003366;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    .skills-list, .cert-list, .contact-list {
+      list-style: none;
+      padding: 0;
+    }
+    .skills-list li, .cert-list li, .contact-list li {
+      padding: 5px 0;
+    }
+    a {
+      color: #003366;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .project-title {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .project-tools {
+      font-style: italic;
+      color: #555;
+      margin-bottom: 10px;
+    }
+    .project-description {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="your-photo.jpg" alt="Your Name">
+    <h1>Your Name</h1>
+    <p>IT Specialist | Systems Admin | Cloud & Networking Enthusiast</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <div class="card">
+      <p>Hi! I'm an IT professional passionate about building reliable, secure, and scalable IT systems. With hands-on experience in system administration, cloud computing, and cybersecurity, I love solving problems and optimizing performance.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Skills & Certifications</h2>
+    <div class="card">
+      <ul class="skills-list">
+        <li><strong>Languages:</strong> Python, Bash, PowerShell</li>
+        <li><strong>Networking:</strong> TCP/IP, Cisco IOS, Firewalls</li>
+        <li><strong>OS:</strong> Windows Server, Ubuntu Linux, Kali Linux</li>
+        <li><strong>Tools:</strong> Git, Docker, VMware, Wireshark</li>
+        <li><strong>Cloud:</strong> AWS, Azure</li>
+        <li><strong>Certifications:</strong>
+          <ul>
+            <li>CompTIA Network+ (2024)</li>
+            <li>AWS Certified Cloud Practitioner (2023)</li>
+            <li>CCNA Cisco Certified Network Associate (Ongoing)</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="card">
+      <div class="project-title">Network Monitoring Dashboard</div>
+      <div class="project-tools">Python, Flask, SNMP, Grafana</div>
+      <div class="project-description">Developed a real-time dashboard to monitor network devices and traffic. Improved downtime detection by 30%.</div>
+      <a href="https://github.com/yourusername/network-monitoring" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="card">
+      <div class="project-title">Automated Server Backup Script</div>
+      <div class="project-tools">Bash, SCP, Cron</div>
+      <div class="project-description">Created a shell script that performs daily server backups and transfers them to a remote machine with logging and error handling.</div>
+    </div>
+
+    <div class="card">
+      <div class="project-title">IT Asset Management System</div>
+      <div class="project-tools">HTML, PHP, MySQL</div>
+      <div class="project-description">Built a lightweight web application to track hardware and software assets across departments.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <div class="card">
+      <ul class="contact-list">
+        <li>Email: <a href="mailto:yourname@email.com">yourname@email.com</a></li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/yourname" target="_blank">linkedin.com/in/yourname</a></li>
+        <li>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></li>
+      </ul>
+    </div>
+  </section>
+</body>
+</html>
